@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel = "icon" href = "../img/web_icon.jpg" type = "image/x-icon">
+	<link rel="stylesheet" type="text/css" href="..\css\bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="..\css\all.min.css">
+	<link rel="stylesheet" type="text/css" href="..\css\fontawesome.min.css">
+	<script type="text/javascript" src="..\js\bootstrap.bundle.min.js"></script>
+	<title>Collection | Anyo Ph</title>
+</head>
+<style type="text/css">
+	body{
+		color: #0D0D0D !important;
+		background-color: #FEF9F8 !important;
+	}
+    p{
+      font-size: 18px;
+    }
+    li{
+      font-size: 18px;
+    }
+	.navbar{
+      background-color: #EF9273 !important;
+    }
+    .dropdown-menu{
+      background-color: #EF9273 !important;
+    }
+    .dropdown-item{
+      color: #FFFFFF;
+      transition: 500ms ease;
+    }
+    .dropdown-item:hover{
+      background-color: #EF9273 !important;
+      color: #7DA27E !important;
+    }
+    .animate{
+      animation-duration: 300ms;
+      animation-fill-mode: both;
+    }
+    @keyframes slideDown{
+      0%{
+        transform: scaleY(0);
+        transform-origin: center top 0;
+      }
+      100%{
+        transform: scaleY(1);
+        transform-origin: center top 0;
+      }
+    }
+    .slideDown{
+      animation-name: slideDown;
+    }
+    .nav-link{
+      transition: color 500ms ease;
+    }
+    .nav-link:hover{
+      color: #42E2B8 !important;
+    }
+    @media(max-width:992px){
+      .nav-link{
+        text-align: center;
+      }
+    }
+    .banner-image{
+  		background: url("../img/collection_page/banner.jpg") rgba(0, 0, 0, .7);
+  		background-size: cover;
+  		background-blend-mode: overlay;
+  		background-position: center;
+  		height: 550px;
+  	}
+    .banner-image h1{
+      font-size: 50px;
+    }
+    .banner-image hr{
+    	background-color: #FFFFFF;
+    	height: 2px;
+    	width: 50%;
+    }
+    footer{
+      background-color: #AD6750 !important;
+    }
+    .card{
+        transition: all ease-in-out .3s;
+    }
+    .card:hover{
+     transform: scale(1.08);
+     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    }
+</style>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <div class="container navigation">
+          <a class="navbar-brand" href="../index.html"><img class="img-fluid" src="../img/web_logo.png" width="120rem"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="trends.html">Trends</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="tips.html">Fashion Tips</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Collection</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                  Lifestyle
+                </a>
+                <ul class="dropdown-menu animate slideDown">
+                  <li><a class="dropdown-item" href="health.html">Health</a></li>
+                  <li><a class="dropdown-item" href="beauty_style.html">Beauty & Style</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="links.html">Links</a>
+              </li>
+          </div>
+        </div>
+    </nav>
+<div class="banner-image w-100 d-flex justify-content-center align-items-center">
+    <div class="container">
+      <div class="col-lg-6">
+        <h1 class="mt-3 text-white">ANYO's Collection of Collaborations with Different Models.</h1>
+        <hr class="lead">
+      </div>
+    </div>
+  </div>
+<div class="container mt-5 mx-auto">
+    <div class="row">
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (1).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Anna Santiago</h5>
+                  <p class="card-text">Collab Model for ANYO's Pandemic Fighters Collection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (2).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sana Antaoinette</h5>
+                  <p class="card-text">Model for ANYO's Philippines Collection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (3).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Charmie Armas</h5>
+                  <p class="card-text">Collab Model for ANYO's Teens of Pinas Collection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (4).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sue Ramirez</h5>
+                  <p class="card-text">Collab Model for ANYO's Green Swing Collection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (5).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">China Sei</h5>
+                  <p class="card-text">Model for ANYO's Strong Asians Collection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (6).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Unique Salonga</h5>
+                  <p class="card-text">Collab Model for ANYO's Teens of Pinas Collection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (7).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Janice Chai</h5>
+                  <p class="card-text">Collab Model for ANYO's Strong Asians Collection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (8).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Timothy Gatchalian</h5>
+                  <p class="card-text">Model for ANYO's Teens of Pinas Collection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (9).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sangria Makanta</h5>
+                  <p class="card-text">Collab Model for ANYO's Teens of Pinas Collection.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (10).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Colleen Trinidad</h5>
+                  <p class="card-text">Collab Model for ANYO's Teens of Pinas Collection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (11).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Liza Soberano</h5>
+                  <p class="card-text">Model for ANYO's Philippines' Gem Collection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (12).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sharona Magsayo</h5>
+                  <p class="card-text">Collab Model for ANYO's Teens of Pinas Collection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (13).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Manganese Uy</h5>
+                  <p class="card-text">Collab Model for ANYO's Strong Asians Collection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (14).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Maya Mun</h5>
+                  <p class="card-text">Model for ANYO's Strong Asians Collection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (15).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Shang Chi and Beth Luig</h5>
+                  <p class="card-text">Collab Models for ANYO's Color Full Collection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (16).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Janna Kanaman and Mando Douglas</h5>
+                  <p class="card-text">Collab Models for ANYO's Color Full Collection..</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (17).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Marlou David</h5>
+                  <p class="card-text">Collab Model for ANYO's Color Full Collection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (18).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mei Mei</h5>
+                  <p class="card-text">Collab Model for ANYO's Color Full Collection.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (19).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Jinhua Lak</h5>
+                  <p class="card-text">Collab Model for ANYO's Color Full Collection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (20).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Simona Shee</h5>
+                  <p class="card-text">Model for ANYO's Philippines Youth Collection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (21).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Guy Laki</h5>
+                  <p class="card-text">Collab Models for ANYO's Color Full Collection..</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (22).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Jinhua Lak and Reid Horts</h5>
+                  <p class="card-text">Collab Models for ANYO's Color Full Collection..</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (23).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Rich Kid</h5>
+                  <p class="card-text">Collab Models for ANYO's Color Full Collection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (24).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Kiba Ding</h5>
+                  <p class="card-text">Collab Models for ANYO's Color Full Collection.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (25).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Asa Riles</h5>
+                  <p class="card-text">Collab Model for ANYO's Teens of Asia Collection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (26).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Zen Wei</h5>
+                  <p class="card-text">Collab Models for ANYO's Color Full Collection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (27).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Kim Park</h5>
+                  <p class="card-text">Collab Model for ANYO's Teens of Asia Collection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (28).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Amanda Rin</h5>
+                  <p class="card-text">Collab Model for ANYO's Teens of Pinas Collection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (29).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sheila Lu</h5>
+                  <p class="card-text">Model for ANYO's Proud Asia Collection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (30).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Jinhua Lak and Reid Horts</h5>
+                  <p class="card-text">Collab Models for ANYO's Color Full Collection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (31).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Egg Log</h5>
+                  <p class="card-text">Collab Model for ANYO's Color Full Collection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (32).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Nevada Ramirez</h5>
+                  <p class="card-text">Model for ANYO's Proud Asia Collection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (35).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Charmie Armas and Sascha Lagros</h5>
+                  <p class="card-text">Collab Models for ANYO's Teens of Pinas Collection.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (38).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Anna Santiago</h5>
+                  <p class="card-text">Collab Model for ANYO's Appreciate Workers Collection.</p>
+                </div>
+            </div>  
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (39).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Dina Qiqi Nhig</h5>
+                  <p class="card-text">Model for ANYO's Proud Asia Collection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-4 mb-5" style="width: 18rem;">
+                <img src="../img/collection_page/collection (40).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Lit Kuma Hin</h5>
+                  <p class="card-text">Collab Model for ANYO's Live Life Asia Collection.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="mt-5 pt-5 pb-4 text-white text-md-left">
+    <div class="container text-md-left">
+      <div class="row text-md-left">
+        <div class="col-md-8 col-lg-8 col-xl-8 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">ANYO</h5>
+          <p>The latest fashion news, beauty coverage, celebrity style, fashion week updates. Anyo is created in order to fulfill the activity "Bootstrap Layouts, Components and Navigations" artivity in lntermediate Programming- The colors and the layout were based on a typical portfolio website that can be seen in the web, trying to make the website as professional-looking as possible.</p>
+        </div>
+        <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Contact</h5>
+          <p><i class="fas fa-home me-3"></i>Makati City. Philippines</p>
+          <p><i class="fas fa-at me-3"></i>anyosayo@gmail.com</p>
+          <p><i class="fas fa-phone me-3"></i>+094654381454</p>
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a href="" class="btn-floating btn-sm text-white" style="font-size: 24px;"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" class="btn-floating btn-sm text-white" style="font-size: 24px;"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" class="btn-floating btn-sm text-white" style="font-size: 24px;"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr class="mb-4" color="#FFFFFF">
+      <div class="row align-items-center">
+        <div class="col">
+          <p class="text-center" style="font-size: 14px; font-style: italic;">&copy;  2022 Duran -  Aus. All rights reserved. Use of this site constitutes acceptance of our User Agreement and Privacy Policy and Cookie Statement and Your Caloocan Privacy Rights.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel = "icon" href = "../img/web_icon.jpg" type = "image/x-icon">
+	<link rel="stylesheet" type="text/css" href="..\css\bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="..\css\all.min.css">
+	<link rel="stylesheet" type="text/css" href="..\css\fontawesome.min.css">
+	<script type="text/javascript" src="..\js\bootstrap.bundle.min.js"></script>
+	<title>Fashion Tips | Anyo Ph</title>
+</head>
+<style type="text/css">
+	body{
+		color: #0D0D0D !important;
+		background-color: #FEF9F8 !important;
+	}
+  p{
+      font-size: 18px;
+    }
+  li{
+      font-size: 18px;
+    }
+	.navbar{
+      background-color: #EF9273 !important;
+    }
+    .dropdown-menu{
+      background-color: #EF9273 !important;
+    }
+    .dropdown-item{
+      color: #FFFFFF;
+      transition: 500ms ease;
+    }
+    .dropdown-item:hover{
+      background-color: #EF9273 !important;
+      color: #7DA27E !important;
+    }
+    .animate{
+      animation-duration: 300ms;
+      animation-fill-mode: both;
+    }
+    @keyframes slideDown{
+      0%{
+        transform: scaleY(0);
+        transform-origin: center top 0;
+      }
+      100%{
+        transform: scaleY(1);
+        transform-origin: center top 0;
+      }
+    }
+    .slideDown{
+      animation-name: slideDown;
+    }
+    .nav-link{
+      transition: color 500ms ease;
+    }
+    .nav-link:hover{
+      color: #42E2B8 !important;
+    }
+    @media(max-width:992px){
+      .nav-link{
+        text-align: center;
+      }
+    }
+    .banner-image{
+  		background: url("../img/tips_page/banner.jpg") rgba(0, 0, 0, .6);
+  		background-size: cover;
+  		background-blend-mode: overlay;
+  		background-position: center;
+  		height: 550px;
+  	}
+    .banner-image h1{
+      font-size: 50px;
+    }
+    .banner-image hr{
+    	background-color: #FFFFFF;
+    	height: 2px;
+    	width: 50%;
+    }
+    footer{
+      background-color: #AD6750 !important;
+    }
+</style>
+<body>
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+  <div class="container navigation">
+    <a class="navbar-brand" href="../index.html"><img class="img-fluid" src="../img/web_logo.png" width="120rem"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="trends.html">Trends</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Fashion Tips</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="collection.html">Collection</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+            Lifestyle
+          </a>
+          <ul class="dropdown-menu animate slideDown">
+            <li><a class="dropdown-item" href="health.html">Health</a></li>
+            <li><a class="dropdown-item" href="beauty_style.html">Beauty & Style</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="links.html">Links</a>
+        </li>
+    </div>
+  </div>
+</nav>
+<div class="banner-image w-100 d-flex justify-content-center align-items-center">
+  <div class="container">
+    <div class="col-lg-5">
+      <h1 class="mt-3 text-white">ANYO's Guide on Being Fashionable</h1>
+      <hr class="lead">
+    </div>
+  </div>
+</div>
+<div class="container mt-5">
+  <div class="row">
+    <p>Parties are often preceded by fun questions, like what to give? Who to bring (if you have a plus one, that is)? When to arrive? And, crucially, what to wear? Most of us don’t just happen to have a floor-length silk gown or a tailcoat hanging around in our closet, waiting for the day our Met Gala invite finally arrives. But would that even be the right kind of thing to wear to such an event? We’ve got answers, and options, for every possible occasion on your social calendar.</p>
+  </div>
+	<div class="row pt-5">
+		<h2>Why Do We Dress Up?</h2>
+    <p>Social obligations are not prerequisites for feeling great about your appearance. You can dress up simply because looking good makes you happy. But more often than not, the situations where we put a lot of care into our outfits are big events with explicit dress codes. The best-case scenario is that we’re dressing for both reasons: because it boosts our self-esteem and because we want to look situationally appropriate.</p>
+    <p>Still, knowing what is appropriate can be a head-scratcher. The dress code might be implied, and even when it’s made explicit, the jargon can be difficult to decode. Which is why we spelled it out for you here.</p>
+	</div>
+  <div class="row pt-5">
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne">
+          <h2>Casual</h2>
+        </button>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <div class="row">
+              <div class="col-6">
+                <h5 class="text-center"><b>DOs</b></h5>
+                <p><b>Jeans and a T-shirt:</b> When the most casual of outfits is perfectly acceptable, you might as well go with it.</p>
+                <p><b>Khakis, modest shorts, day dresses and skirts</b></p>
+                <p><b>Anything cotton or linen:</b> In the summertime especially, it’s more pleasant to wear breathable fabrics, and these can easily be dressed up or down.</p>
+                <p>Basically, you want to dress like any of the characters on your favorite sitcom routinely do: in comfortable clothing that is neither ostentatious nor schlubby.</p>
+                <figure class="figure">
+                  <img src="../img/tips_page/tips-casual (1).jpg" class="figure-img img-fluid rounded" alt="...">
+                  <figcaption class="figure-caption">Model: Shulee Park.</figcaption>
+                </figure>
+              </div>
+              <div class="col-6">
+                <h5 class="text-center"><b>DON'Ts</b></h5>
+                <p><b>Graphic T’s:</b> Plain T-shirts are great, but ones with inflammatory words or images might be better left at home. The Emily Post Institute, whose mission is to educate people about etiquette, advises against shirts that bear slogans altogether.</p>
+                <p><b>Anything clearly ripped or stained:</b> It’s a matter of self-respect more than anything, but it also shows respect for your host and fellow guests when you dress in clean clothes. Intentional distressing on denim is fine.</p>
+                <p><b>Uncomfortable clothing:</b> This is always a don’t, but there’s no reason to dress outside your comfort zone when the dress code is casual. The idea is to come as you are.</p>
+                <figure class="figure">
+                  <img src="../img/tips_page/tips-casual (2).jpg" class="figure-img img-fluid rounded" alt="...">
+                  <figcaption class="figure-caption">Model: Moon Shunga.</figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="row pt-4">
+              <div class="col">
+                <p><b>Where Casual is Appropriate</b></p>
+                <ul>
+                  <li>Friendly gatherings: BBQs, housewarming parties</li>
+                  <li>Informal dinner outings</li>
+                  <li>Traveling</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo">
+          <h2>Dressy Casual</h2>
+        </button>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <div class="row">
+              <div class="col-6">
+                <h5 class="text-center"><b>DOs</b></h5>
+                <p><b>Dress:</b> A shirt dress or a sweater dress can appear refined and relaxed at once.</p>
+                <p><b>Blouse or button-down shirt:</b> You can’t go wrong with a crisp, classic top. Add a blazer to dress the look up a notch or two.</p>
+                <p><b>Dark denim:</b> Unfaded indigo or black jeans can make an outfit feel instantly more evening-appropriate.</p>
+                <p><b>“Going-out top”:</b> These shirts – often constructed from synthetic materials and sometimes bought cheaply from fast-fashion stores – are meant to make a casual look a little more club-ready. Ultimately, a going-out top is anything that makes you feel good.</p>
+                <p><b>Jumpsuit:</b> It’s a stylish one-piece alternative to the dress that can be scaled for elegance. Boiler suits in particular are very trendy this year.</p>
+                <figure class="figure">
+                  <img src="../img/tips_page/tips-dressy casual (1).jpg" class="figure-img img-fluid rounded" alt="...">
+                  <figcaption class="figure-caption">Model: Yellow Shan.</figcaption>
+                </figure>
+              </div>
+              <div class="col-6">
+                <h5 class="text-center"><b>DON'Ts</b></h5>
+                <p><b>Sneakers:</b> unless they are very clean and not the type you would wear to the gym</p>
+                <p><b>Shorts:</b> just don't.</p>
+                <figure class="figure">
+                  <img src="../img/tips_page/tips-dressy casual (2).jpg" class="figure-img img-fluid rounded" alt="...">
+                  <figcaption class="figure-caption">Model: Samantha Sui.</figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="row pt-4">
+              <div class="col">
+                <p><b>Where Dressy Casual is Appropriate</b></p>
+                <ul>
+                  <li>A first date</li>
+                  <li>Most nights out with friends (unless the dress code is explicit).</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree">
+          <h2>Business</h2>
+        </button>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <div class="row">
+              <div class="col-6">
+                <h5 class="text-center"><b>DOs</b></h5>
+                <p><b>If business casual:</b> khakis or dark dress pants; a button-down shirt; sport coat or blazer; tie optional.</p>
+                <p><b>If business formal:</b> dark suit, dress shirt and dress shoes; silk tie; sheath dress; pencil skirt. Think Kerry Washington on “Scandal,” or any of the esteemed actors on USA Network’s “Suits.”</p>
+                <figure class="figure">
+                  <img src="../img/tips_page/tips-business (1).jpg" class="figure-img img-fluid rounded" alt="...">
+                  <figcaption class="figure-caption">Model: Cameron Alcantara.</figcaption>
+                </figure>
+              </div>
+              <div class="col-6">
+                <h5 class="text-center"><b>DON'Ts</b></h5>
+                <p><b>Sneakers, not even nice ones:</b> They will make you stand out in a bad way.</p>
+                <p><b>Jeans:</b> Business attire is not the same as tech company work attire.</p>
+                <p><b>Clothing that distracts.</b> Our fashion critic Vanessa Friedman says that “clothes should not be the focus of attention,” which means “they should not be what colleagues or friends remember after a meeting.”</p>
+                <p>Anything that makes you wonder, “Is this a bad idea?” If you’re thinking it before you leave the house, your thoughts will only get louder throughout the day.</p>
+                <figure class="figure">
+                  <img src="../img/tips_page/tips-business (2).jpg" class="figure-img img-fluid rounded" alt="...">
+                  <figcaption class="figure-caption">Model: Hidelyn West.</figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="row pt-4">
+              <div class="col">
+                <p><b>When Business Attire is Appropriate</b></p>
+                <ul>
+                  <li>Most workplaces and related events</li>
+                  <li>Networking mixers</li>
+                  <li>Job interviews</li>
+                  <li>Conferences</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour">
+          <h2>Cocktail/Semi-Formal</h2>
+        </button>
+        <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <div class="row">
+              <div class="col-6">
+                <h5 class="text-center"><b>DOs</b></h5>
+                <p><b>Dress:</b> You’ll want to wear a dress that is made of a refined fabric (like silk, lace or taffeta) and cuts around the knee. It should be much more formal than a sundress, but less formal than a ballgown. Most department stores and online retailers have sections devoted to party dresses, and any of those should do.</p>
+                <p><b>Suit:</b> Most people wear dark suits to occasions with this dress code, but if the event is a daytime party, a light suit (beige, gray) is totally fine.</p>
+                <p><b>Dressy separates:</b> If you wear a very snazzy top (think sequins or silk), you can probably get away with dress pants (say, velvet) or a skirt on the bottom.</p>
+                <p><b>Jumpsuit:</b> Everyone wears dresses. Why not do wear something that makes a statement?</p>
+                <p><b>Dress shoes,</b> pumps</p>
+                <p><b>When in doubt, wear black.</b></p>
+                <figure class="figure">
+                  <img src="../img/tips_page/tips-semiformal (1).jpg" class="figure-img img-fluid rounded" alt="...">
+                  <figcaption class="figure-caption">Model: Blonde Jhonson.</figcaption>
+                </figure>
+              </div>
+              <div class="col-6">
+                <h5 class="text-center"><b>DON'Ts</b></h5>
+                <p><b>Anything too short or tight</b> (unless you love being physically uncomfortable for hours at an event).</p>
+                <p><b>Jeans:</b> This is definitely not the time or place for America’s favorite pant.</p>
+                <p>Plain cotton anything.</p>
+                <figure class="figure">
+                  <img src="../img/tips_page/tips-semiformal (2).jpg" class="figure-img img-fluid rounded" alt="...">
+                  <figcaption class="figure-caption">Model: Shinji Ringo.</figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="row pt-4">
+            <div class="col">
+              <p><b>When Cocktail/Semi Formal is Appropriate</b></p>
+              <ul>
+                 <li>Some weddings</li>
+                <li>Evening fundraisers</li>
+                <li>Proms and other formal school events</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive">
+          <h2>Black Tie</h2>
+        </button>
+        <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <div class="row">
+              <div class="col-6">
+                <h5 class="text-center"><b>DOs</b></h5>
+                <p><b>Dress:</b> Long gown or a very elegant cocktail dress: This can be elevated with jewelry and other accessories.</p>
+                <p><b>Tuxedo</b></p>
+                <p><b>Pumps or strappy sandals</b></p>
+                <p><b>Black wingtips or oxfords</b></p>
+                <p>Remember how the characters on “Gossip Girl” dressed for special occasions? That’s the bar here.</p>
+                <figure class="figure">
+                  <img src="../img/tips_page/tips-blacktie (1).jpg" class="figure-img img-fluid rounded" alt="...">
+                  <figcaption class="figure-caption">Model: Arnold Swishenger.</figcaption>
+                </figure>
+              </div>
+              <div class="col-6">
+                <h5 class="text-center"><b>DON'Ts</b></h5>
+                <p>It’s not a strict rule, but most people advise against bright colors for practical reasons: They’re harder to rewear and more difficult to clean.</p>
+                <p><b>Scuffed shoes:</b> Even if they are dress shoes, you want them to be in tip-top condition.</p>
+                <figure class="figure">
+                  <img src="../img/tips_page/tips-blacktie (2).jpg" class="figure-img img-fluid rounded" alt="...">
+                  <figcaption class="figure-caption">Model: Jerime Nagayoto.</figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="row pt-4">
+            <div class="col">
+              <p><b>When Black Tie is Appropriate</b></p>
+              <ul>
+                <li>Fancy weddings</li>
+                <li>Galas</li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </div>
+        </div>
+      <div class="accordion-item">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix">
+          <h2>White Tie</h2>
+        </button>
+        <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <div class="row">
+              <div class="col-6">
+                <h5 class="text-center"><b>DOs</b></h5>
+                <p><b>Floor-length gown</b></p>
+                <p><b>Tailcoat jacket</b></p>
+                <p><b>Jewels</b></p>
+                <p><b>Long white gloves:</b> optional, and sort of extra, but isn’t that the point?</p>
+                <p>Looking like royalty is the ideal outcome.</p>
+                <figure class="figure">
+                  <img src="../img/tips_page/tips-whitetie (1).jpg" class="figure-img img-fluid rounded" alt="...">
+                  <figcaption class="figure-caption">Model: Simon Seas.</figcaption>
+                </figure>
+              </div>
+              <div class="col-6">
+                <h5 class="text-center"><b>DON'Ts</b></h5>
+                <p>An above-the-knee dress</p>
+                <p><b>Suit:</b> Your business attire is dapper, but it’s not welcome here!</p>
+                <figure class="figure">
+                  <img src="../img/tips_page/tips-whitetie (2).jpg" class="figure-img img-fluid rounded" alt="...">
+                  <figcaption class="figure-caption">Model: Hugh Dickinson.</figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="row pt-4">
+            <div class="col">
+              <p><b>When White Tie is Appropriate</b></p>
+              <ul>
+                <li>A very, very fancy wedding, if explicitly stated on the invitation</li>
+                <li>The Met Gala, or any fund-raiser of its caliber</li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="row pt-5">
+      <h1>Tips and Advice</h1>
+    </div>
+    <div class="row pt-4 shadow-sm">
+      <div class="col-4">
+        <h3>How to Save Money</h3>
+      </div>
+      <div class="col-8">
+        <p>Dressing up, even once in a while, can easily become expensive. Anyone who is familiar with the marathon of weddings that begins in one’s 20s and never really ends knows that dressing up can feel like an expensive chore. You can’t really help it that you’re popular or that your friends are in love, but preparing for these celebrations and gatherings doesn’t have to break the bank.</p>
+        <ul>
+          <li><b>Shop smart:</b> Knowing where to buy occasion wear is half the battle, and not everyone’s recommendations will fit your idea of what’s affordable. The easiest and least expensive option is to browse what online retailers like Lulus and Asos have to offer. There are also fairly affordable sustainable brands like Reformation whose garments may incur a smaller carbon footprint. Second-hand and consignment stores can also have gems from high-quality labels. If you can’t find any such stores locally, the RealReal and thredUP resell clothes from luxury and midpriced brands.</li><br>
+          <li><b>Rent, don’t buy:</b> Truly no one needs to own a ballgown. Companies like Rent the Runway (now offering an Unlimited subscription service) and Armarium let you pick from a trove of designer offerings, then return the wares after your special occasion is history.</li><br>
+          <li><b>Rewear your look:</b> It can be costly to buy a new outfit for every occasion on your social calendar. If you purchase pieces that are basic enough (the simple black cocktail dress, for example) you can wear them over and over again. Tiffany Haddish has done it on the red carpet, and we all stand to learn from her eco- and budget-friendly example.</li><br>
+          <li><b>Ask a friend:</b> Maybe you know someone who has a dress or a suit you can borrow. Think of it as a rental, but free! But make sure to offer to pay for their dry cleaning so that the loan is no imposition.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row mt-3 mb-3"></div>
+    <div class="row pt-4 shadow-sm">
+      <div class="col-4">
+        <h3>How to Make it Look Good</h3>
+      </div>
+      <div class="col-8">
+        <p>Speaking of which, clothing – especially dressy clothing – should not simply be worn. It often requires alterations or D.I.Y. hacks to look as good as possible. And, crucially, garments should be cared for, especially when they are costly or beloved. Here are some things to consider:</p>
+        <ul>
+          <li><b>Alterations:</b> If you’ve purchased a piece that doesn’t fit quite like a glove, or you have a well-worn outfit that’s due for some fixes, you might want to visit a tailor or a dry cleaner who performs alterations ahead of your event. Before you just walk into the nearest shop, it’s worth asking friends for recommendations: Once the fabric is cut, it can’t really be restored. Wherever you go, make sure you drop off the garment at least three weeks before you’ll need to wear it.</li><br>
+          <li><b>Shapewear:</b> Let’s start by saying that everyone’s body is wonderful and nothing must be done to make it look good in a dress. But, if you would like your clothes to lay smooth and flat on your person, there are plenty of things you can buy. The folks at Spanx and Commando produce seamless undergarments that are virtually undetectable underneath even the slinkiest dresses.</li><br>
+          <li><b>Tape:</b> If after the alterations and shapewear, something about your outfit still feels precarious, there’s always good old tape. Kim Kardashian proudly uses it to secure her dresses and decolletage, and she says gaffer tape works best. There’s also fashion tape and toupee tape, which are really just two types of double-sided tape with fancy names.</li><br>
+          <li><b>Ironing and steaming:</b> Creases can put a wrinkle in anyone’s plans to look great, so before you go out, consider ironing or steaming your outfit and putting it on a hanger so that it retains its polished appearance. Our friends at Wirecutter recommend Maytag's M400 iron for those who are in the market. Handheld steamers are a great investment, too, as they travel well and work like a charm.</li><br>
+          <li><b>Cleaning and other garment care:</b> It’s worth noting that your wares will get dirty. Our friend Alainna Lexie Beddie at T Magazine has solutions for all of the stains and scuffs your clothes and shoes are likely to incur given your busy social schedule.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row mt-3 mb-3"></div>
+    <div class="row pt-4 shadow-sm">
+      <div class="col-4">
+        <h3>How to Upgrade Any Look</h3>
+      </div>
+      <div class="col-8">
+        <p>Sometimes a dress code can feel rote – more like a uniform than an expression of personal style. This is especially true if you’ve built up a wardrobe of rewearable pieces and they’ve each made appearances at several occasions. Here are a few ways to make sure your outfit comes together and feels fresh:</p>
+        <ul>
+          <li><b>Accessories:</b> By this point, you’ve picked the perfect outfit. You will look great no matter what. But if you have the time and means, consider the distinguishing details. Have you thought about jewelry? What tie you’ll wear? How you’ll carry your necessities? Whether you’ll need a coat, and which one to wear? These questions are best addressed at least a week prior to the event, so you have time to shop or borrow from a friend if needed. Or maybe the answer is in your closet. If you always sport a silk tie, for example, you could try that knit one you got as a gift but haven’t worn yet.</li><br>
+          <li><b>Hair:</b> Maybe you show up to work with wet hair every day. That’s O.K.! But you probably don’t want to do it on your best friend’s wedding day. Special occasions can present an opportunity for a haircut (at least a couple days in advance), or a hairdo (likely the day of). As long as your hair doesn’t appear visibly slept-on, greasy or otherwise unkempt, you’re doing fine.</li><br>
+          <li><b>Nails:</b> Again, none of this is obligatory, and you should only do it if it makes you feel happy. Does getting your nails done make you feel happy? Yes? Then do it! If not … maybe just cut them and make sure they’re clean.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="mt-5 pt-5 pb-4 text-white text-md-left">
+    <div class="container text-md-left">
+      <div class="row text-md-left">
+        <div class="col-md-8 col-lg-8 col-xl-8 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">ANYO</h5>
+          <p>The latest fashion news, beauty coverage, celebrity style, fashion week updates. Anyo is created in order to fulfill the activity "Bootstrap Layouts, Components and Navigations" artivity in lntermediate Programming- The colors and the layout were based on a typical portfolio website that can be seen in the web, trying to make the website as professional-looking as possible.</p>
+        </div>
+        <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Contact</h5>
+          <p><i class="fas fa-home me-3"></i>Makati City. Philippines</p>
+          <p><i class="fas fa-at me-3"></i>anyosayo@gmail.com</p>
+          <p><i class="fas fa-phone me-3"></i>+094654381454</p>
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a href="" class="btn-floating btn-sm text-white" style="font-size: 24px;"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" class="btn-floating btn-sm text-white" style="font-size: 24px;"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" class="btn-floating btn-sm text-white" style="font-size: 24px;"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr class="mb-4" color="#FFFFFF">
+      <div class="row align-items-center">
+        <div class="col">
+          <p class="text-center" style="font-size: 14px; font-style: italic;">&copy;  2022 Duran -  Aus. All rights reserved. Use of this site constitutes acceptance of our User Agreement and Privacy Policy and Cookie Statement and Your Caloocan Privacy Rights.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
